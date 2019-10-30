@@ -1,0 +1,91 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FFB6C1;
+}
+.carrusel{
+  
+
+
+}
+
+#jumbotron {
+  text-align: center;
+  position: relative;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.inicio {
+  font: bold 16px verdana;
+  text-decoration: none;
+  padding: 10px;
+  background-color:pink (145, 252, 193, 0.753);
+  border-radius: 2px;
+  height: 30px;
+  text-align: right;
+}
+
+.registro {
+  font: bold 16px verdana;
+  text-decoration: none;
+  padding: 10px;
+  background-color: pink (145, 252, 193, 0.753);
+  border-radius: 2px;
+  height: 50px;
+  text-align: right;
+}
+
+.navbar-nav li{
+  color: white;
+}
+
+.fotos-contenedor {
+  margin: auto;
+  padding: 20px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.content-card {
+  width: 25%;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+  overflow: hidden;
+  height: 600px;
+  margin-bottom: 20px;
+}
+
+.fotos {
+  height: 100%;
+}
+
+.content-card img {
+  padding: 3%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Footer */
+
+.iconos{
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.fab{
+  font-size: 60px;
+  color: #fff;
+  margin-bottom: var(--espacios);
+  display: inline-block;
+}

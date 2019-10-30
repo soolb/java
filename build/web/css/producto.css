@@ -1,0 +1,39 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: #FFB6C1;
+}
+
+.inicio {
+  font: bold 16px verdana;
+  text-decoration: none;
+  padding: 10px;
+  background-color:pink (145, 252, 193, 0.753);
+  border-radius: 2px;
+  height: 30px;
+  text-align: right;
+}
+
+.registro {
+  font: bold 16px verdana;
+  text-decoration: none;
+  padding: 10px;
+  background-color: pink (145, 252, 193, 0.753);
+  border-radius: 2px;
+  height: 50px;
+  text-align: right;
+}
+
+.carta{
+    margin: 20px;
+}
+.productos{
+    margin:auto;
+}
+
+.imagenes{
+    margin: auto;
+    height: 300px;
+}
+
+
+
